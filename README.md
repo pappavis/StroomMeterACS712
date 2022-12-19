@@ -13,6 +13,7 @@ ACS712 breakout board &amp; <a href="https://octopart.com/datasheet/acs712elctr-
 <img src="https://github.com/pappavis/StroomMeterACS712/blob/main/img/acs712_breakout.jpg?raw=true" title="acs712_breakout"/></img>
 <br>
 
+Tip: PCB gcode voor jouw CNC machine kunt je genereren voor met <a href="http://flatcam.org" target="_blank">Flatcam.org</a>
 
 Credit: <a href="https://www.youtube.com/@easylab4kids246" target="_blank">#easylab4kids</a>
 
