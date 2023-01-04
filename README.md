@@ -1,8 +1,14 @@
-# StroomMeterACS712
 Measure AC power usage using ESP8266 and ACS712
 
-Work in progress!!  Nothing to see here, not yet.
+Werk-in-uitvoering!!!
 
+# Waarom?
+De bedoeling is om een 230V AC middels software te kunnen aan/uitzetten.  In principe kunt je dit gebruiken waar je AC stroom willen aan/uitzetten en meten. Het functioneert in principe dezelfde als een Sonoff POW switch.
+
+# Hoe werkt het
+Wanneer IO-pin HIGH op de ESP32 gaat de voeding aan, aangestuurd door Octoprint, vlak voor starten met printen.
+
+# KiCAD schema
 <img src="https://github.com/pappavis/StroomMeterACS712/blob/main/img/ACStroommeter_schema.jpg?raw=true" width="60%" height="60%" title="schema">
 
 # Benodigheden
@@ -19,12 +25,7 @@ De volgende heb je nodig;
 
 Je kunt van Aliexpress bestellen die in één pakketje worden opgestuurd.
 
-# Waarom?
-De bedoeling is om een 230V AC middels software te kunnen aan/uitzetten.  In principe kunt je dit gebruiken waar je AC stroom willen aan/uitzetten en meten. Het functioneert in principe dezelfde als een Sonoff POW switch.
-
-# Hoe werkt het
-Wanneer IO-pin HIGH op de ESP32 gaat de voeding aan, aangestuurd door Octoprint, vlak voor starten met printen.
-
+# Papier concept versie
 TODO: onderstaand schema uitleggen.<br>
 <img src="https://github.com/pappavis/StroomMeterACS712/blob/main/img/Aan-uit_relay_schakeling_20211006_Max50.jpg?raw=true" width="30%" height="30%"><br>
 Credits: Max50
