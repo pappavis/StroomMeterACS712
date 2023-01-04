@@ -19,7 +19,7 @@ De volgende heb je nodig;
 
 Je kunt van Aliexpress bestellen die in één pakketje worden opgestuurd.
 
-Zet de voeding aan met Octoprint vlak voor starten met printen.
+Wanneer IO-pin HIGH op de ESP32 gaat de voeding aan, aangestuurd door Octoprint, vlak voor starten met printen.
 
 # Waarom?
 De bedoeling is om een 230V AC middels software te kunnen aan/uitzetten.  In principe kunt je dit gebruiken waar je AC stroom willen aan/uitzetten en meten. Het functioneert in principe dezelfde als een Sonoff POW switch.
