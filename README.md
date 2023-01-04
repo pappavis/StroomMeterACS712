@@ -31,7 +31,7 @@ TODO: onderstaand schema uitleggen.<br>
 Credits: Max50
 
 # Geïnspireerd door
-heb de kunstje beetje afgekeken van;
+heb de kunstje beetje geleend van;
  * <a href="https://www.youtube.com/watch?v=dQNBeAZpRmk" target="_blank">Deze</a> videoclip.
  * OctoPrint <a href="https://plugins.octoprint.org/plugins/psucontrol/" target="_blank">psucontrol</a> uitbreiding.
 
