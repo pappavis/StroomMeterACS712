@@ -18,7 +18,7 @@ Je kunt van Aliexpress bestellen die in één pakketje worden opgestuurd.
 #Hoe werkt het
 TODO: onderstaand schema uitleggen.
 
-<img src="https://github.com/pappavis/OctoPrintAutoPowerOff/blob/main/img/Aan-uit_relay_schakeling_20211006_Max50.jpg?raw=true" width="30%" height="30%">
+<img src="https://github.com/pappavis/StroomMeterACS712/blob/main/img/Aan-uit_relay_schakeling_20211006_Max50.jpg?raw=true" width="30%" height="30%">
 
 
 Geïnspireerd door
