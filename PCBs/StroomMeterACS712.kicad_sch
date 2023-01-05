@@ -1861,7 +1861,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 162.814 52.578 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 08f50ae6-9197-4cc7-bf93-a9c3e9cebd47)
-    (property "Reference" "J?" (id 0) (at 162.814 46.228 0))
+    (property "Reference" "J6" (id 0) (at 162.814 46.228 0))
     (property "Value" "Voeding_in" (id 1) (at 162.814 47.879 0)
       (effects (font (size 0.66 0.66)))
     )
@@ -1919,7 +1919,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 196.469 55.626 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 31a064e3-adf7-4c9e-be7d-1193ce0579b1)
-    (property "Reference" "#PWR?" (id 0) (at 196.469 61.976 0)
+    (property "Reference" "#PWR010" (id 0) (at 196.469 61.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 196.596 59.436 0)
@@ -2297,7 +2297,7 @@
   (symbol (lib_id "Converter_ACDC:HLK-PM01") (at 183.896 51.689 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c2b2ae9d-9de9-41a3-a83b-7ea5a297950e)
-    (property "Reference" "PS?" (id 0) (at 183.515 44.577 0))
+    (property "Reference" "PS1" (id 0) (at 183.515 44.577 0))
     (property "Value" "HLK-PM01_220V" (id 1) (at 183.769 46.609 0)
       (effects (font (size 0.8 0.8)))
     )
@@ -2498,7 +2498,7 @@
   (symbol (lib_name "VCC_1") (lib_id "power:VCC") (at 196.342 47.625 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f206b1a1-64e2-4364-bc14-b9085806ba7d)
-    (property "Reference" "#PWR?" (id 0) (at 196.342 51.435 0)
+    (property "Reference" "#PWR09" (id 0) (at 196.342 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 196.342 43.942 0)
@@ -2635,6 +2635,12 @@
     (path "/e2adab14-7bfe-4689-8993-783208432c43"
       (reference "#PWR08") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/f206b1a1-64e2-4364-bc14-b9085806ba7d"
+      (reference "#PWR09") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/31a064e3-adf7-4c9e-be7d-1193ce0579b1"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5baaad51-90c9-47e6-8528-1e99fbd4fc0a"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -2661,12 +2667,6 @@
     )
     (path "/bc37740f-7fe1-4ded-b4b5-34a1035f8c70"
       (reference "#PWR0109") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/31a064e3-adf7-4c9e-be7d-1193ce0579b1"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f206b1a1-64e2-4364-bc14-b9085806ba7d"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
     (path "/f8d28331-eeae-4d87-867f-0a521759c2f1"
       (reference "H1") (unit 1) (value "Gaatje") (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad")
@@ -2696,13 +2696,13 @@
       (reference "J5") (unit 1) (value "PWR_5V_jst") (footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical")
     )
     (path "/08f50ae6-9197-4cc7-bf93-a9c3e9cebd47"
-      (reference "J?") (unit 1) (value "Voeding_in") (footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical")
+      (reference "J6") (unit 1) (value "Voeding_in") (footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical")
     )
     (path "/2c38c161-17dc-4f92-b89f-4df0368010f6"
       (reference "K1") (unit 1) (value "SRD-03VDC-SL-C") (footprint "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C")
     )
     (path "/c2b2ae9d-9de9-41a3-a83b-7ea5a297950e"
-      (reference "PS?") (unit 1) (value "HLK-PM01_220V") (footprint "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx")
+      (reference "PS1") (unit 1) (value "HLK-PM01_220V") (footprint "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx")
     )
     (path "/6e417949-1c0b-4e2c-a1ca-2496c5b6d272"
       (reference "Q1") (unit 1) (value "BC547") (footprint "Package_TO_SOT_THT:TO-92_Inline")
