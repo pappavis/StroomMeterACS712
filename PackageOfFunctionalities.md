@@ -2,7 +2,7 @@ My idea is a open-source Sonoff POW R3 for AC-power energy meter based on a ESP3
 
 I need help improving/reviewing my KiCAD design. I learnt electronics from Youtube vids.
 
-The (incomplete) BOM is;
+The (incomplete) <a href="https://github.com/pappavis/StroomMeterACS712/tree/main#benodigheden" target="_blank">BOM</a> is;
 - ESP32 S2 Mini
 - HLK-PM01_220V AC-DC powersupply
 - PCF8574A I2C expander
