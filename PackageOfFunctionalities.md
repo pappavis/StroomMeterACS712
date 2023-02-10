@@ -19,6 +19,7 @@ The (incomplete) <a href="https://github.com/pappavis/StroomMeterACS712/tree/mai
 - A user should connect 220V-wire from mains
 - A status LED for indicating on/off state
 - A status for when 220V is being measured
+- A physical SPDT shwitch with the device can have the device always on.
 - Ability to (de)activate the relay, and therefore switch of power to anything connected to it
 
 
